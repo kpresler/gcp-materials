@@ -72,12 +72,11 @@ if __name__ == "__main__":
     
     
     if math.sqrt(d) >= c1.getRadius() + c2.getRadius():
-        print("Circles are not are intersecting or contained")
+        # print a sensible message here 
     
     elif math.sqrt(d) < (c1.getRadius() + c2.getRadius()):
-         # print a sensible message here 
-         print("Circles are intersecting or contained")
-         
+        # print a sensible message here 
+
     print(c2.contains(c1))
     print(c2.radius)
     c2.setRadius(10)
