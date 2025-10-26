@@ -89,7 +89,7 @@ def main():
     turtle.update()
     turtle.done()
 
-# main()
+#main()
 
 
 
@@ -176,7 +176,7 @@ def main():
     time_step = 1/60
     animation_loop(shapes, time_step)
 
-# main()
+#main()
 
 
 
@@ -310,7 +310,7 @@ def main():
     time_step = 1/60
     animation_loop(shapes, time_step)
 
-# main()
+#main()
 
 
 
@@ -407,15 +407,12 @@ class Bananna(Shape):
 def add_banana():
     shapes.append(Bananna())         
     
-def add_goat():
-    shapes.append(Goat())
             
 # main function that starts running the program
 def main():
     screen = turtle.Screen()
     screen.addshape('apple.gif')
     screen.addshape("banana.gif")
-    screen.addshape("goat.png")
 
     turtle.tracer(0, 0) # only render when we say so
     turtle.hideturtle() # hide the icon
@@ -424,11 +421,10 @@ def main():
     turtle.onkeypress(add_ball, 'space')
     turtle.onkeypress(add_apple, 'a')
     turtle.onkeypress(add_banana, "b")
-    turtle.onkeypress(add_goat, "g")
     
     turtle.listen()
 
     time_step = 1/60
     animation_loop(shapes, time_step)
     
-main()
+# main()
