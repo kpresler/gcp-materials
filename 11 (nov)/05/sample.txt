@@ -1,0 +1,61 @@
+Excuse my ramblings. I’ll get to a point eventually.
+
+Let me introduce myself. I’m a nerd, a geek. I’m probably somewhere on the autism spectrum. I‘m also a late bloomer. I graduated from college when I was 26. I was 45 when I got married. I’m now 60 years old, with a 14 year old son. Maybe I just have a hard time with decisions: I’ve lived in the US for over 20 years and I am still a permanent resident.
+
+I'm no Steve Jobs or Mark Zuckerberg. But at age 35 I created a programming language that got a bit of a following. What happened next was pretty amazing. But I'll get to that.
+
+At age 10 my parents gave me an educational electronics kit. The kit was made by Philips, and it was amazing. At first I just followed the directions and everything worked; later I figured out how to design my own circuits. My prized possessions were the kit's three (!) transistors.
+
+I took one of my first electronics models, a blinking light, to show and tell in 5th grade. It was a total dud — nobody cared or understood its importance. I think that's one of my earliest memories of finding myself a geek: until then I had just been a quiet quick learner.
+
+In high school I developed my nerdiness further — I hung out with a few other kids interested in electronics, and during physics class we sat in the back of the class discussing NAND gates while the rest of the class was still figuring out Ohm's law.
+
+Fortunately our physics teacher had figured us out: he employed us to build a digital timer that he used to demonstrate the law of gravity to the rest of the class. It was a great project and showed us that our skills were useful. The other kids still thought we were weird: it was the seventies and many were into smoking pot and rebelling; another group was already preparing for successful careers as doctors or lawyers or tech managers. But they left me alone, I left them alone, and I graduated as one of the best of my year.
+
+After high school I went to the University of Amsterdam: It was close to home, and to a teen growing up in the Netherlands in the seventies, Amsterdam was the only cool city. (Yes, the student protests of 1968 did touch me a bit.) Much to my high school physics teacher's surprise and disappointment, I chose to major in math, not physics. But looking back I think it didn’t matter.
+
+In the basement of the science building was a mainframe computer, and it was love at first sight. Card punches! Line printers! Batch jobs! More to the point, I quickly learned to program, in languages with names like Algol, Fortran and Pascal. Mostly forgotten names, but highly influential at the time. Soon I was, again, sitting in the back of class, ignoring the lecture, correcting my computer programs. And why was that?
+
+In that basement, around the mainframe, something amazing was happening. There was a loosely-knit group of students and staff with similar interests, and we exchanged tricks of the trade. We shared subroutines and programs. We united in our alliances against the mainframe staff, especially in the endless cat-and-mouse games over disk space. (Disk space was precious in a way you cannot understand today.)
+
+But the most important lesson I learned was about sharing: while most of the programming tricks I learned there died with the mainframe era, the idea that software needs to be shared is stronger than ever. Today we call it open source, and it’s a movement. Hold that thought!
+
+At the time, my immediate knowledge of the tricks and the trade seemed to matter most though. The mainframe’s operating system group employed a few part-time students, and when they posted a vacancy, I applied, and got the job. It was a life-changing event! Suddenly I had unlimited access to the mainframe — no more fighting for space or terminals — plus access to the source code for its operating system, and dozens of colleagues who showed me how all that stuff worked.
+
+I now had my dream job, programming all day, with real customers: other programmers, the users of the mainframe. I stalled my studies and essentially dropped out of college, and I would not have graduated if not for my enlightened manager and a professor who hadn't given up on me. They nudged me towards finishing some classes and pulled some strings, and eventually, with much delay, I did graduate. Yay!
+
+I immediately landed a new dream job that would not have been open to me without that degree. I had never lost my interest in programming languages as an object of study, and I joined a team building a new programming language — not something you see every day. The designers hoped their language would take over the world, replacing Basic.
+
+It was the eighties now, and Basic was the language of choice for a new generation of amateur programmers, coding on microcomputers like the Apple II and the Commodore 64. Our team considered the Basic language a pest that the world should be rid of. The language we were building, ABC, would stamp out Basic, according to our motto.
+
+Sadly, for a variety of reasons, our marketing (or perhaps our timing) sucked, and after four years, ABC was abandoned. Since then I've spent many hours trying to understand why the project failed, despite its heart being so clearly in the right place. Apart from being somewhat over-engineered, my best answer is that ABC died because there was no internet in those days, and as a result there could not be a healthy feedback loop between the makers of the language and its users. ABC’s design was essentially a one-way street.
+
+Just half a decade later, when I was picking through ABC’s ashes looking for ideas for my own language, that missing feedback loop was one of the things I decided to improve upon. Release early, release often became my motto (freely after the old Chicago Democrats’ encouragement, vote early, vote often). And the internet, small and slow as it was in 1990, made it possible.
+
+Looking back 25 years, the Internet and the Open Source movement (a.k.a. Free Software) really did change everything. Plus something called Moore's Law, which makes computers faster every year. Together, these have entirely changed the interaction between the makers and users of computer software. It is my belief that these developments (and how I managed to make good use of them) have contributed more to the success of my programming language than my programming skills and experience, no matter how awesome.
+
+It also didn't hurt that I named my language Python. This was a bit of unwitting marketing genius on my part. I meant to honor the irreverent comedic genius of Monty Python's Flying Circus, and back in 1990 I didn't think I had much to lose. Nowadays, I'm sure brand research firms would be happy to to charge you a very large fee to tell you exactly what complex of associations this name tickles in the subconscious of the typical customer. But I was just being flippant.
+
+I have promised the ambassador not to bore you with a technical discussion of the merits of different programming languages. But I would like to say a few things about what programming languages mean to the people who use them — programmers. Typically when you ask a programmer to explain to a lay person what a programming language is, they will say that it is how you tell a computer what to do. But if that was all, why would they be so passionate about programming languages when they talk among themselves?
+
+In reality, programming languages are how programmers express and communicate ideas — and the audience for those ideas is other programmers, not computers. The reason: the computer can take care of itself, but programmers are always working with other programmers, and poorly communicated ideas can cause expensive flops. In fact, ideas expressed in a programming language also often reach the end users of the program — people who will never read or even know about the program, but who nevertheless are affected by it.
+
+Think of the incredible success of companies like Google or Facebook. At the core of these are ideas — ideas about what computers can do for people. To be effective, an idea must be expressed as a computer program, using a programming language. The language that is best to express an idea will give the team using that language a key advantage, because it gives the team members — people! — clarity about that idea. The ideas underlying Google and Facebook couldn't be more different, and indeed these companies' favorite programming languages are at opposite ends of the spectrum of programming language design. And that’s exactly my point.
+
+True story: The first version of Google was written in Python. The reason: Python was the right language to express the original ideas that Larry Page and Sergey Brin had about how to index the web and organize search results. And they could run their ideas on a computer, too!
+
+So, in 1990, long before Google and Facebook, I made my own programming language, and named it Python. But what is the idea of Python? Why is it so successful? How does Python distinguish itself from other programming languages? (Why are you all staring at me like that? :-)
+
+I have many answers, some quite technical, some from my specific skills and experience at the time, some just about being in the right place at the right time. But I believe the most important idea is that Python is developed on the Internet, entirely in the open, by a community of volunteers (but not amateurs!) who feel passion and ownership.
+
+And that is what that group of geeks in the basement of the science building was all about.
+
+Surprise: Like any good inspirational speech, the point of this talk is about happiness!
+
+I am happiest when I feel that I'm part of such a community. I’m lucky that I can feel it in my day job too. (I'm a principal engineer at Dropbox.) If I can't feel it, I don't feel alive. And so it is for the other community members. The feeling is contagious, and there are members of our community all over the world.
+
+The Python user community is formed of millions of people who consciously use Python, and love using it. There are active members organizing Python conferences — affectionately known as PyCons — in faraway places like Namibia, Iran, Iraq, even Ohio!
+
+My favorite story: A year ago I spent 20 minutes on a video conference call with a classroom full of faculty and staff at Babylon University in southern Iraq, answering questions about Python. Thanks to the efforts of the audacious woman who organized this event in a war-ridden country, students at Babylon University are now being taught introductory programming classes using Python. I still tear up when I think about the power of that experience. In my wildest dreams I never expected I’d touch lives so far away and so different from my own.
+
+And on that note I'd like to leave you: a programming language created by a community fosters happiness in its users around the world. Next year I may go to PyCon Cuba!

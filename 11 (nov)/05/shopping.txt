@@ -1,0 +1,5 @@
+Bananas,500,1
+Flour,5,1.20
+Sugar,2,2
+Oats,3,1.5
+Carrots,5,.57
