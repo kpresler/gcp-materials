@@ -16,14 +16,18 @@ plt.plot([1, 2, 3, 4])
 plt.ylabel('some numbers')
 
 
+plt.xlabel("Some data")
 
 plt.show()
 
-plt.xlabel("Some data")
 
 
 
-x_vals = [5,10,15,20];
+
+
+
+x_vals = [5,10,15,20]
+
 y_vals = [x**2 for x in x_vals]
 # x vs y plot; also shows how to specify labels for both axes and an overall title
 
@@ -41,7 +45,7 @@ plt.show()
 
 # styled plot; same as before expect "g^" does green triangles instead of a blue line
 
-plt.plot(x_vals, y_vals, "g^")
+plt.plot(x_vals, y_vals, "b--")
 plt.xlabel("X values")
 plt.ylabel("Y values")
 plt.title("Plot of y = x^2")
