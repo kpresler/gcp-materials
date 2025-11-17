@@ -11,7 +11,7 @@ import csv # CSV library; easier than what we've done before
 
 
 # Very simple plot, only specify Y values, and the X values get assumed by MPL
-"""
+
 plt.plot([1, 2, 3, 4])
 plt.ylabel('some numbers')
 
@@ -20,9 +20,6 @@ plt.ylabel('some numbers')
 plt.show()
 
 plt.xlabel("Some data")
-
-"""
-
 
 
 
@@ -44,7 +41,7 @@ plt.show()
 
 # styled plot; same as before expect "g^" does green triangles instead of a blue line
 
-plt.plot(x_vals, y_vals, "r--")
+plt.plot(x_vals, y_vals, "g^")
 plt.xlabel("X values")
 plt.ylabel("Y values")
 plt.title("Plot of y = x^2")
@@ -247,8 +244,7 @@ with open("transistor_data.csv") as cpu_file:
     # library.  It's a _very_ good one, but all it does is plot.  A trend
     # line is doing data analysis, and that's not what Matplotlib does.
     
-    # this is where we use Numpy, which was one of the other things you saw
-    # in today's prep
+    # this is where we use Numpy, which we practiced with last week
 
 
     # this uses numpy to calculate a trend line (best fit)
