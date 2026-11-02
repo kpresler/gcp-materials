@@ -129,36 +129,6 @@ def add_ball():
     shapes.append(Ball(random.randrange(20) + 1))
     
     
-class Goat(Shape):
-    def draw(self, turtle):
-        super().draw(turtle)
-        turtle.shape('goat.gif')
-        turtle.stamp()
-        
-    
-    def move(self, time):
-        super().move(time)    
-        
-        for potential_food in shapes[:]:
-            
-            
-            if potential_food != self:
-                
-            
-            #if not isinstance(potential_food, Goat):
-            
-                food_x, food_y = potential_food.position
-                
-                our_x, our_y = self.position
-                
-                if abs(food_x - our_x) < 10 and abs(food_y - our_y) < 10:
-                    print("Mmmmm, tasty!")
-                    shapes.remove(potential_food)
-            
-
-
-def add_goat():
-    shapes.append(Goat())
 
 
 # keep looping through updating each object as time progresses
@@ -183,7 +153,6 @@ def main():
     screen = turtle.Screen()
     screen.addshape('apple.gif')
     screen.addshape("banana.gif")
-    screen.addshape("goat.gif")
 
     turtle.tracer(0, 0) # only render when we say so
     turtle.hideturtle() # hide the icon
@@ -192,7 +161,6 @@ def main():
     turtle.onkeypress(add_ball, 'space')
     turtle.onkeypress(add_apple, 'a')
     turtle.onkeypress(add_banana, "b")
-    turtle.onkeypress(add_goat, "g")
     
     turtle.listen()
 
